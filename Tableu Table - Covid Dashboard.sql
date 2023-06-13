@@ -29,3 +29,6 @@ SELECT Location, Population, date, MAX(total_cases) as HighestInfectionCount, MA
 FROM PortfolioProject..CovidDeaths
 GROUP BY Location, Population, date
 ORDER BY PercentPopulationInfected DESC
+
+
+--dashboard is here -> https://public.tableau.com/app/profile/nasha.che.mohd/viz/CovidDashboard_16763558146410/Dashboard1
